@@ -1,0 +1,2 @@
+# vue-random-selector
+This was copied from my [php-random-selector](https://github.com/snake14/php-vue-random-selector) project and adapted to be static so that it could be hosted as a Github page. The project is a basic JavaScript page that can aid in making decisions by randomly selecting from a list of options. This came about because my wife and I are both indecisive. Being able to enter a list of dinner options and then have one randomly picked at the press of a button comes in handy sometimes.
