@@ -1,9 +1,6 @@
 Vue.component('add-edit-item', {
 	props: {
-		items: Array,
-		listId: Number,
-		setCanAddList: { type: Function },
-		setIsListDirty: { type: Function }
+		items: Array
 	},
 	data() {
 		return {
@@ -22,9 +19,6 @@ Vue.component('add-edit-item', {
 			// Add the list item to the list.
 			// $('#item_list').append('<li class="list-group-item" data-val="' + value + '">' + value + '</li>');
 			this.items.push({ name: value });
-
-			this.setCanAddList(true);
-			this.setIsListDirty(true);
 
 			// Hide the modal.
 			this.$bvModal.hide('add_edit_modal');
